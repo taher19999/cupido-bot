@@ -6,7 +6,7 @@ const WizardScene = require("telegraf/scenes/wizard");
 
 const loveCalculator = require("./api/loveCalculator");
 
-const bot = new Telegraf(process.env.BOT_TOKEN)
+const bot = new Telegraf(process.env.token)
 
 bot.start(ctx => {
   ctx.reply(
